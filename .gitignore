@@ -1,0 +1,19 @@
+# Compiled programs
+*.exe
+*.out
+parking
+
+# Object files
+*.o
+*.obj
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep the data folder in Git, but ignore generated parking records.
+# The empty placeholder files are included in the repository.
+data/active_vehicles.txt
+data/parking_history.txt
